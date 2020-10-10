@@ -1,0 +1,16 @@
+class Main{
+    //static void m(long l){System.out.println("long");}//l - long
+    static void m(Long l){System.out.println("Long");}//L - Long
+
+  public static void main(String args[]){
+
+   int a=30;
+   
+    
+long long_=(long)a;//Widing - Разширяване  .от 'a' в 'l'
+Long Long_=(Long)l;//Boxing ... от 'l' в 'L'
+
+ //m(long_);
+   m(Long_);
+ } 
+}
